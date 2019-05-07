@@ -14,8 +14,8 @@ namespace boost {
   namespace units {
     namespace si {
       typedef unit<species_density_dimension,si::system> species_density;
-      BOOST_UNITS_STATIC_CONSTANT(species_per_square_meter,species_density);
-      BOOST_UNITS_STATIC_CONSTANT(species_per_square_meters,species_density);
+      BOOST_UNITS_STATIC_CONSTANT(species_per_square_meter, species_density); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
+      BOOST_UNITS_STATIC_CONSTANT(species_per_square_meters, species_density); //!OCLINT indeed long variable name, but I choose to keep it in, for the sake of readability of this example code
     } // namespace si
   } // namespace units
 } //namespace boost
